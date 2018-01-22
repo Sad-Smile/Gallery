@@ -1,0 +1,182 @@
+body {
+    background: black;
+}
+
+
+
+
+
+header {
+    text-align: center;
+    background-image: url(header_bg.jpg);
+    background-repeat: repeat-x;
+}
+
+nav li:hover {
+    background-image: url(img/but6_a.jpg);
+}
+
+nav li {
+    padding-top: 14px;
+    background-repeat: repeat-x;
+    display: inline-block;
+    margin: 15px;
+}
+
+nav {
+    margin-top: -35px;
+}
+
+
+aside {
+
+    vertical-align: top;
+
+}
+
+.main_galery {
+    display: inline-block;
+    max-width: 1000px;
+}
+
+.main_photo li {
+    width: 18%;
+    display: inline-block;
+}
+
+.main_photo li {
+    display: inline-block;
+}
+
+.galery_nav li {
+    display: inline-block;
+}
+
+main {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.main_photo img {
+    width: 100%;
+}
+
+figure {
+    margin: 0px;
+
+}
+
+.main_photo {
+    text-align: justify;
+    /*text-align-last: justify;*/
+}
+
+.main_photo ul:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.galery_nav ul {
+    text-align: center;
+    display: inline-block;
+}
+
+* {
+    color: white;
+}
+
+.galery_nav a {
+    text-decoration: underline;
+
+}
+
+.galery_nav {
+    text-align: justify;
+
+}
+
+.galery_nav:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+
+}
+
+.nav_prev {
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+
+    color: aqua;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 7px;
+
+}
+
+footer div {
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+@media all and (min-width:1200px) {
+    aside {
+        width: 150px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+}
+
+@media all and (min-width:700px) and (max-width:1200px) {
+    aside {
+        width: 100%;
+        display: block;
+        
+        
+    }
+    aside li {
+        display: inline;
+        margin: 1em;
+      width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width:700px) {
+    aside {
+        width: 100%;
+        display: block;
+    }
+    aside li {
+        display: inline;
+        width: 100%;
+    
+        margin: 0.5em;
+    }
+}
